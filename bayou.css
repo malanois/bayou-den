@@ -272,5 +272,14 @@ letter-spacing: 2px;
     }
 
 
+html,
+body {
+    background-color: #27332b !important;
+    background-image: url("https://i.ibb.co/QvGL3yLY/pexels-martin-g-427039241-15272434.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+}
 
 
