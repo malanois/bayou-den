@@ -281,10 +281,10 @@ body {
     background-repeat: no-repeat !important;
 }
 
-.container.main {
-    background: rgba(39, 51, 43, 0) !important;
-    background-color: rgba(39, 51, 43, 0) !important;
-    border-color: transparent !important;
-    box-shadow: none !important;
+
+.col-md-9 {
+    background: transparent !important;
+    background-color: transparent !important;
 }
+
 
