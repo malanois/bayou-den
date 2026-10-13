@@ -287,11 +287,11 @@ body {
     background-color: transparent !important;
 
     
-div.container.main,
-div.container.main > .row,
-div.container.main .col-md-9 {
+
+.main {
     background: transparent !important;
     background-color: transparent !important;
+    border: none !important;
     box-shadow: none !important;
 }
     
