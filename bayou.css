@@ -261,7 +261,6 @@ letter-spacing: 2px;
         opacity: 1;
         box-shadow: 0 0 14px 6px rgba(217, 255, 140, 0.9);
     }
-}
 
 @keyframes firefly-float {
     from {
