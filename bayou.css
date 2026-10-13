@@ -1,10 +1,15 @@
 
+html {
+    min-height: 100%;
+    background-color: #26372b;
+}
+
 body {
     margin: 0;
-    padding: 24px;
+    padding: 0;
+    min-height: 100vh;
     color: #d7dfd0;
     font-family: Georgia, serif;
-
     background-color: #26372b;
     background-image:
         radial-gradient(
@@ -16,14 +21,6 @@ body {
             ellipse at 80% 75%,
             rgba(10, 20, 13, 0.20),
             transparent 70%
-        ),
-        repeating-linear-gradient(
-            8deg,
-            rgba(220, 220, 190, 0.018) 0px,
-            rgba(220, 220, 190, 0.018) 1px,
-            transparent 1px,
-            transparent 4px
         );
-
     background-attachment: fixed;
 }
