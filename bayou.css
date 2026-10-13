@@ -64,51 +64,36 @@ h1, h2, h3, h4, h5 {
     scrollbar-color: #617653 #17251c;
 }
 
+
 /* VAGALUMES */
 .firefly {
     position: fixed;
-    width: 5px;
-    height: 5px;
+    display: block;
+    width: 9px;
+    height: 9px;
     border-radius: 50%;
-    background-color: #e4e9a0;
+    background: #f0f5a6;
     box-shadow:
-        0 0 5px 2px rgba(228, 233, 160, 0.65),
-        0 0 14px 5px rgba(190, 210, 111, 0.25);
+        0 0 8px 4px rgba(240, 245, 166, 0.7),
+        0 0 22px 9px rgba(190, 220, 112, 0.35);
     opacity: 0;
     pointer-events: none;
     z-index: 9999;
-    animation: firefly-glow 4s ease-in-out infinite alternate;
-}
-
-.firefly:nth-of-type(2) {
-    animation-delay: 1s;
-}
-
-.firefly:nth-of-type(3) {
-    animation-delay: 2.3s;
-}
-
-.firefly:nth-of-type(4) {
-    animation-delay: 0.7s;
-}
-
-.firefly:nth-of-type(5) {
-    animation-delay: 3s;
+    animation: firefly-glow 5s ease-in-out infinite alternate;
 }
 
 @keyframes firefly-glow {
     0% {
-        opacity: 0.08;
+        opacity: 0.1;
         transform: translate(0, 0);
     }
-
     50% {
-        opacity: 0.9;
+        opacity: 1;
+        transform: translate(25px, -20px);
     }
-
     100% {
-        opacity: 0.15;
-        transform: translate(12px, -18px);
+        opacity: 0.2;
+        transform: translate(-15px, 18px);
     }
 }
 
