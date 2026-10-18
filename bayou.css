@@ -1,8 +1,24 @@
 
 html,
 body {
-    background-color: #17251c !important;
-    background-image: url("https://i.ibb.co/qFCHWytQ/32-Sem-T-tulo-20261018011040.png");
+    background-color: #332d26 !important;
+    background-image:
+        radial-gradient(
+            ellipse at 18% 20%,
+            rgba(91, 83, 57, 0.28) 0%,
+            transparent 48%
+        ),
+        radial-gradient(
+            ellipse at 82% 72%,
+            rgba(58, 76, 49, 0.25) 0%,
+            transparent 52%
+        ),
+        linear-gradient(
+            135deg,
+            #463b30 0%,
+            #332d26 45%,
+            #252821 100%
+        ) !important;
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
