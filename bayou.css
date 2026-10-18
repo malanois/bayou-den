@@ -1,22 +1,33 @@
 
+
 html,
 body {
     background-color: #332d26 !important;
     background-image:
         radial-gradient(
-            ellipse at 18% 20%,
-            rgba(91, 83, 57, 0.28) 0%,
-            transparent 48%
+            ellipse at 15% 18%,
+            rgba(116, 111, 70, 0.22) 0%,
+            transparent 38%
         ),
         radial-gradient(
-            ellipse at 82% 72%,
-            rgba(58, 76, 49, 0.25) 0%,
-            transparent 52%
+            ellipse at 85% 32%,
+            rgba(69, 91, 54, 0.24) 0%,
+            transparent 42%
+        ),
+        radial-gradient(
+            ellipse at 28% 82%,
+            rgba(91, 65, 43, 0.25) 0%,
+            transparent 45%
+        ),
+        radial-gradient(
+            ellipse at center,
+            transparent 35%,
+            rgba(15, 20, 15, 0.48) 100%
         ),
         linear-gradient(
             135deg,
             #463b30 0%,
-            #332d26 45%,
+            #332d26 48%,
             #252821 100%
         ) !important;
     background-position: center top;
