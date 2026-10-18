@@ -39,3 +39,33 @@ body {
 body * {
     background-color: transparent !important;
 }
+
+/* Texto principal */
+body,
+body p,
+body span,
+body div,
+body li,
+body td,
+body th {
+    color: #e4dcc8 !important;
+}
+
+/* Títulos e cabeçalhos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #d5bd8a !important;
+}
+
+/* Links */
+a {
+    color: #c6d6a5 !important;
+}
+
+a:hover {
+    color: #f0dfb0 !important;
+}
