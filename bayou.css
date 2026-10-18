@@ -69,3 +69,74 @@ a {
 a:hover {
     color: #f0dfb0 !important;
 }
+/* Layout das três caixas */
+
+.bayou-boxes {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 16px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 24px auto;
+}
+
+.bayou-boxes .bayou-box {
+    box-sizing: border-box;
+    min-width: 0;
+    padding: 20px;
+    background:
+        radial-gradient(
+            ellipse at 20% 10%,
+            rgba(111, 104, 71, 0.28),
+            transparent 70%
+        ),
+        linear-gradient(
+            145deg,
+            rgba(70, 59, 48, 0.96),
+            rgba(37, 40, 33, 0.96)
+        ) !important;
+    border: 1px solid #697b60;
+    border-radius: 8px;
+    box-shadow:
+        inset 0 0 18px rgba(15, 20, 15, 0.35),
+        0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Aparência das caixas */
+.bayou-boxes .bayou-box {
+    box-sizing: border-box;
+    flex: 1 1 250px;
+    min-width: 0;
+    padding: 20px;
+    background:
+        radial-gradient(
+            ellipse at 20% 10%,
+            rgba(111, 104, 71, 0.28),
+            transparent 70%
+        ),
+        linear-gradient(
+            145deg,
+            rgba(70, 59, 48, 0.96),
+            rgba(37, 40, 33, 0.96)
+        ) !important;
+    border: 1px solid #697b60;
+    border-radius: 8px;
+    box-shadow:
+        inset 0 0 18px rgba(15, 20, 15, 0.35),
+        0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Títulos das caixas */
+.bayou-boxes .bayou-box h3 {
+    color: #d5bd8a !important;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(150, 157, 117, 0.45);
+}
+
+/* Texto das caixas */
+.bayou-boxes .bayou-box p {
+    color: #e4dcc8 !important;
+}
